@@ -7,16 +7,16 @@ function SecondHeader(props) {
       <ButtonGroup>
         <Title>ALL</Title>
         <Link href="" target="_blank">
-          <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/twitter.svg" />
+          <img alt="twitter" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/twitter.svg" />
         </Link>
         <Link href="" target="_blank">
-          <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/facebook.svg" />
+          <img alt="facebook" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/facebook.svg" />
         </Link>
         <Link href="" target="_blank">
-          <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg" />
+          <img alt="instagram" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg" />
         </Link>
         <Link href="" target="_blank">
-          <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/youtube.svg" />
+          <img alt="youtube" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/youtube.svg" />
         </Link>
       </ButtonGroup>
       <HideButton

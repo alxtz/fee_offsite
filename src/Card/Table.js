@@ -17,9 +17,10 @@ class Table extends React.Component {
           <PostAmount># OF POSTS</PostAmount>
         </IntroBar>
         {
-          TERMS.map(term => {
+          TERMS.map((term, index) => {
             return (
               <Row
+                key={index}
                 title={ term.name }
                 amount={ term.count }
               />
