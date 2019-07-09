@@ -1,23 +1,21 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import Card from './Card/index'
-
-function App() {
+function Header() {
   return (
     <Container>
-      <Card />
+      Title
     </Container>
   );
 }
 
 const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
+  height: 35px;
+  background: #0275d8;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: #e2e1e0;
+  align-items: center;
+  color: #f7f7f7;
 `
 
-export default App;
+export default Header;
